@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "ELEC1001",
+    "name": "Astra X15 Gaming Laptop",
+    "category": "Electronics",
+    "brand": "Astra",
+    "price": 82999,
+    "specifications": {
+      "processor": "Intel Core i7",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "voltage": "230V"
+    },
+    "warranty": {
+      "years": 2,
+      "type": "onsite"
+    },
+    "ports": ["USB-C", "HDMI", "Ethernet"],
+    "in_stock": true
+  },
+  {
+    "_id": "CLTH2001",
+    "name": "Classic Denim Jacket",
+    "category": "Clothing",
+    "brand": "Northline",
+    "price": 3499,
+    "sizes": ["S", "M", "L", "XL"],
+    "materials": {
+      "outer": "100% cotton denim",
+      "lining": "polyester"
+    },
+    "care_instructions": ["machine wash cold", "do not bleach"],
+    "color_options": ["Blue", "Black"],
+    "gender": "Unisex"
+  },
+  {
+    "_id": "GROC3001",
+    "name": "Organic Rolled Oats",
+    "category": "Groceries",
+    "brand": "FarmRoot",
+    "price": 275,
+    "expiry_date": "2024-11-18",
+    "weight_grams": 1000,
+    "nutrition_per_100g": {
+      "calories": 389,
+      "protein_g": 16.9,
+      "fiber_g": 10.6
+    },
+    "ingredients": ["whole grain oats"],
+    "storage": {
+      "temperature": "cool and dry",
+      "sealed": true
+    }
+  }
+]
